@@ -1,0 +1,27 @@
+---
+layout: default
+title: My Blog
+permalink: /Blog/
+image: /pics/icon.png
+
+---
+
+<div class="home">
+
+    <h1 class="blog-heading">My Blog Posts</h1>
+
+    <ul class="post-list">
+        {% for files in site.posts %}
+        <li>
+
+
+            <h2>
+                <a class="post-link" href="{{ files.url | prepend: site.baseurl }}"><img class="blog-img" src="{{ page.image }}" />                      {{ files.title }}</a>
+            </h2>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

@@ -1,0 +1,15 @@
+/* TEAM */
+Name: Sahand Rajabion
+Site: http://sahandrajabion.github.io
+Twitter: sahandrajabion
+Github: sahandrajabion
+Location: Kalmar, Sweden
+
+/* THANKS */
+URL: http://lnu.se/, http://sahandrajabion.com/, http://jekyllrb.com/docs/
+
+
+/* SITE */
+Standards: HTML5, CSS3.
+Components: Jekyll, SASS, Disqus, Open Graph.
+Software: JetBrains WebStorm.

@@ -1,0 +1,17 @@
+# Site settings
+title: Sahand web blog / portfolio
+email: sr222hn@student.lnu.se
+description: > # this means to ignore newlines until "baseurl:"
+  This is my first blog created using Jekyll/SCSS. Here I will share my projects
+  and other relevant information about me and what I do.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://sahandrajabion.github.io/" # the base hostname & protocol for your site
+twitter_username: sahandrajabion
+github_username:  sahandrajabion
+logourl: ../pics/logo.png
+
+# Build settings
+markdown: kramdown
+fb_admins:          http://www.facebook.com/sahand.rajabion
+fb_appid:           766680763475753
+avatar:             ../pics/logo.png
